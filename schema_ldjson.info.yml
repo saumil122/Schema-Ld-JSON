@@ -1,0 +1,19 @@
+name: Schema Ld+JSON Module
+description: This module allows to manage Schema for the website.
+package: SEO
+
+type: module
+core: 8.x
+
+dependencies:
+
+test_dependencies:
+
+configure: schema_ldjson.settings
+
+php: 5.6
+
+# Note: do not add the 'version' or 'project' properties yourself.
+# They will be added automatically by the packager on drupal.org.
+# version: 1.0
+# project: 'schema_ldjson'

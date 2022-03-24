@@ -1,0 +1,6 @@
+schema_ldjson.settings:
+  title: 'Schema Ld+JSON settings'
+  description: 'This module allows to manage Schema for the website.'
+  parent: system.admin_config_search
+  route_name: schema_ldjson.settings
+  weight: 100

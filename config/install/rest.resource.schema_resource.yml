@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - schema_ldjson
+    - serialization
+    - user
+id: schema_resource
+plugin_id: schema_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

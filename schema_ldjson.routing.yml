@@ -1,0 +1,10 @@
+schema_ldjson.settings:
+  path: '/admin/config/schema_ldjson/settings'
+  defaults:
+    #_form: '\Drupal\schema_ldjson\Form\SchemaSettingsForm'
+    _controller: '\Drupal\schema_ldjson\Controller\SchemaLdJsonController::settingsPage'
+    _title: 'Schema Ld+JSON'
+  requirements:
+    _permission: 'administer site configuration'
+  options:  
+    _admin_route: TRUE
